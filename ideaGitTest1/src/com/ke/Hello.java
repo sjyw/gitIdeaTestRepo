@@ -8,6 +8,7 @@ public class Hello {
         int x = 1;
         int y = 2;
         System.out.println(x + "+" + y + "=" + add(x, y));
+        System.out.println(x + "-" + y + "=" + sub(x, y));
     }
 
     /**
@@ -15,5 +16,12 @@ public class Hello {
      */
     private static int add(int x, int y) {
         return x + y;
+    }
+
+    /**
+     * 减法
+     */
+    private static int sub(int x, int y) {
+        return x - y;
     }
 }
