@@ -9,7 +9,7 @@ public class Hello {
         int y = 2;
         System.out.println(x + "+" + y + "=" + add(x, y));
         System.out.println(x + "-" + y + "=" + sub(x, y));
-        System.out.println(x + "-" + y + "=" + sub(x, y));
+        System.out.println(x + "-" + y + "=" + sub(6, 2));
     }
 
     /**
